@@ -1,4 +1,3 @@
-// pixabay-api.js
 const BASE_URL = 'https://pixabay.com/api/';
 const API_KEY = '42800800-86f7251243bc7e4391903d90a';
 

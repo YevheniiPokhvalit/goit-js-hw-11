@@ -15,19 +15,18 @@ function initSimpleLightbox() {
 
 function renderImages(images) {
   const gallery = document.querySelector('.gallery');
-  clearGallery(); // Очищаємо галерею перед відображенням нових зображень
+  clearGallery();
   images.forEach(image => {
     const card = createImageCard(image);
     gallery.appendChild(card);
   });
-  initSimpleLightbox(); // Ініціалізація SimpleLightbox після рендерингу зображень
+  initSimpleLightbox();
 }
 
 function createImageCard(image) {
   const card = document.createElement('div');
   card.classList.add('card');
 
-  // Створення посилання для зображення
   const link = document.createElement('a');
   link.href = image.largeImageURL;
   link.classList.add('simplelightbox');
@@ -41,7 +40,6 @@ function createImageCard(image) {
   link.appendChild(imageElement);
   card.appendChild(link);
 
-  // Створення блоку з інформацією про зображення
   const cardBody = document.createElement('div');
   cardBody.classList.add('card-body');
 
