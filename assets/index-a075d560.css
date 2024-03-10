@@ -1,0 +1,1 @@
+.gallery{display:flex;flex-wrap:wrap;max-width:1128px;gap:24px;margin:0 auto;padding-top:15px}.card{max-width:350px;height:200px;border:1px solid black;overflow:hidden}img{display:block;height:152px;width:360px;object-fit:cover}.card-body{display:flex}p{padding:4px 20px;margin:0;text-align:center}
