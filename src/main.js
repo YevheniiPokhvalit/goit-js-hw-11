@@ -8,10 +8,6 @@ const form = document.querySelector('.search-form');
 const input = document.querySelector('.search-input');
 
 form.addEventListener('submit', handleFormSubmit);
-const loader = document.createElement('div');
-loader.classList.add('loader');
-document.body.appendChild(loader);
-loader.style.display = 'none';
 
 function handleFormSubmit(event) {
   event.preventDefault();

@@ -36,7 +36,7 @@ p {
   border: 3px dotted #fff;
   border-style: solid solid dotted dotted;
   border-radius: 50%;
-  display: block;
+  display: none;
   position: relative;
   box-sizing: border-box;
   animation: rotation 2s linear infinite;
